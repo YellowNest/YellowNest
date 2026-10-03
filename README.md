@@ -62,6 +62,13 @@ Most of my work comes from running real systems, finding rough edges and fixing 
 
 `Linux` · `Python` · `Docker` · `Raspberry Pi` · `Networking` · `Home Assistant` · `Zigbee` · `REST APIs` · `Web UI` · `Self-hosting` · `Automation`
 
+
+## Available for paid work
+
+I take on selected paid development and debugging work involving Linux, networking, Docker, self-hosted systems, Raspberry Pi, Home Assistant, integrations and open-source software.
+
+[Request paid work →](https://github.com/YellowNest/YellowNest/issues/new?template=paid-work.yml)
+
 ## Support my work
 
 If one of my fixes, projects or contributions saved you time or solved a problem, you can support my continued open-source work through GitHub Sponsors.
