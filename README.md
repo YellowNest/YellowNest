@@ -67,7 +67,7 @@ Most of my work comes from running real systems, finding rough edges and fixing 
 
 I take on selected paid development and debugging work involving Linux, networking, Docker, self-hosted systems, Raspberry Pi, Home Assistant, integrations and open-source software.
 
-[Request paid work →](https://github.com/YellowNest/YellowNest/issues/new?template=paid-work.yml)
+[View services & request paid work →](https://yellownest.github.io/hire.html)
 
 ## Support my work
 
