@@ -1,0 +1,74 @@
+name: Paid work request
+description: Request paid development, debugging, integration or open-source work from YellowNest.
+title: "[Paid work] "
+labels:
+  - paid-work
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for considering YellowNest for paid technical work.
+
+        Use this form for development, debugging, integrations, Linux/self-hosted infrastructure work, networking software, Raspberry Pi projects or open-source fixes.
+
+        Do not include passwords, API keys, private IP addresses or other sensitive information. This issue will be public.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of work
+      options:
+        - Bug investigation / fix
+        - Feature development
+        - Integration
+        - Linux / Docker / self-hosted troubleshooting
+        - Networking / device discovery
+        - Raspberry Pi
+        - Home Assistant / smart home
+        - Open-source contribution
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: project
+    attributes:
+      label: Project or repository
+      description: Link to the repository or project if public.
+      placeholder: https://github.com/owner/project
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What needs to be done?
+      description: Describe the problem and the result you want.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: budget
+    attributes:
+      label: Budget range
+      options:
+        - Under $100
+        - $100–250
+        - $250–500
+        - $500–1,000
+        - $1,000+
+        - Need an estimate
+    validations:
+      required: true
+
+  - type: input
+    id: deadline
+    attributes:
+      label: Desired timeframe
+      placeholder: No deadline / this week / before YYYY-MM-DD
+
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Public information
+      options:
+        - label: I understand this GitHub issue is public and contains no secrets or credentials.
+          required: true
